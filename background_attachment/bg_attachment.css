@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+.bg{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bg_image1{
+    height: 100vh;
+    background-image:url("1.jpg");
+}
+.bg_image2{
+    height: 50vh;
+    background-image: url("2.jpg");
+
+}
+.bg_image3{
+    height: 50vh;
+    background-image: url("3.jpg");
+
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+.caption .border{
+    background-color: gray;
+    color:#fff;
+    padding: 23px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+}
+
+.box{
+    color: teal;
+    background-color: #fff;
+    padding: 50px 150px;
+    text-align: center;
+}
